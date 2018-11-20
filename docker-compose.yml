@@ -5,7 +5,7 @@ services:
   laravel:
     image: my_laravel:1.4
     volumes:
-      - /var/www/html/laravelproject:/var/www/html/laravelproject
+      - /var/www/html/docker/laravelproject:/var/www/html/laravelproject
 
   webserver:
     image: nginx
